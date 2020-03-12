@@ -14,6 +14,7 @@ export class ShippingComponent implements OnInit {
 
   ngOnInit() {
     this.shippingConsts = this.cartService.getShippingPrices();
+    //console.log(this.shippingConsts);
   }
 
 }
